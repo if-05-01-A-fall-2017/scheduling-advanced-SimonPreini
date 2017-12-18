@@ -2,12 +2,11 @@
 
 2.)	A: 142,5
 	B: 102,5
-	The scheduler would first take process B
+	The scheduler would first take process B because the estimated time is lower than at process A
 
-3.)	CPU-bound processes are processes that work in the background and have no user interraction
+3.)	CPU-bound processes are processes that work in the background and have no user interraction(virus-scanner)
 	I/O-bound processes have a high user interraction like a webbrowser
 
 	CPU-bound processes need more quanta to be faster with the work and I/O-bound processes need a higher priority to make the user interraction better
 
-4.)	35/50 + 20/100 + 10/200 + x/250 = 0,99	->  x = 10msec
-
+4.)	35/50 + 20/100 + 10/200 + x/250 = 1	->	x = 12,5msec
